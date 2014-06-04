@@ -1,0 +1,32 @@
+#galerie img {
+	margin:4px;
+}
+.gallery_text {
+	overflow:hidden; padding:0.12em;
+}
+#gallery_left{
+	padding:5px;
+	width:477px;
+	float:left;
+	margin-bottom:2.1em;
+	height:150px;
+	color:#888;
+}
+#gallery_right{
+	width:477px;
+	float:right;
+	margin-bottom:2.1em;
+	padding:5px;
+	color:#aaa;
+	height:150px;
+    }
+.first_gallery {margin-bottom:45px !important}
+
+@media only screen and (max-width:1068px){
+	#gallery_left, #gallery_right {
+		float: none;
+	}
+	#gallery_right {
+		display: none;
+	}
+}

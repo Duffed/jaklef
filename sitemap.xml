@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+
+<url>
+    <loc>http://www.jaklef.de</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+</url>   
+<url>
+    <loc>http://www.jaklef.de/galerie.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+</url>  
+<url>
+    <loc>http://www.jaklef.de/videos.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+</url>  
+<url>
+    <loc>http://www.jaklef.de/biografie.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://www.jaklef.de/kontakt.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://www.jaklef.de/impressum.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://www.jaklef.de/galerie.php?album=1</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://www.jaklef.de/galerie.php?album=10</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://www.jaklef.de/galerie.php?album=9</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://www.jaklef.de/galerie.php?album=8</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://www.jaklef.de/galerie.php?album=7</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://www.jaklef.de/galerie.php?album=6</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://www.jaklef.de/galerie.php?album=5</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://www.jaklef.de/galerie.php?album=4</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://www.jaklef.de/galerie.php?album=3</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://www.jaklef.de/galerie.php?album=2</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+</url>  
+</urlset>      

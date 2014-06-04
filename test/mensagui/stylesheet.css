@@ -1,0 +1,142 @@
+
+/* Genrell */
+*, *:after, *:before {
+	-webkit-box-sizing: boder-box;
+	box-sizing:border-box;
+}
+body {
+	font-family: Segoe Ui;
+	/*background-image: url(http://www.transparenttextures.com/patterns/graphy.png); */
+}
+/* */
+#wrapper {
+	position: relative;
+	width: 1024px;
+	height: 768px;
+	background: lightgrey;
+	margin:auto;
+	margin-top: 15px;
+}
+p {padding: 0;margin:0;}
+/* Leiste oben */
+header {
+	padding:5px;
+	line-height: 1.625em;
+	font-size: 1em;
+	
+}
+header div {
+	display:-webkit-flex;
+	background:yellow;
+	padding:10px;
+}
+header p{
+	flex:1 auto;
+}
+#uhr {
+	text-align: right;
+	margin-left: 5px;
+}
+
+/* Tagesleiste */
+div, li {
+	box-shadow: 0px 0px 3px #777;
+}
+
+#tagesleiste{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	height:60px;
+}
+#tagesleiste div{
+	flex: 1 auto;
+	background: tomato;
+	height:100%;
+	padding:5px;
+	margin-right:5px;
+	text-align: center;
+	padding-top: 20px;
+}
+#tagesleiste div:nth-child(1){
+	margin-left: 5px;
+}
+#tagesleiste div.selected {
+	background:#ff9865;
+	box-shadow: 0px 0px 5px black;
+}
+/* Speisekarte */
+#speisekarte {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 10px;
+}
+#speisekarte ul{
+	flex:1;
+	margin-right:5px;
+	list-style-type: none;
+	padding: 0
+}
+#speisekarte h3 {
+	margin:0 0 4px 4px;
+	padding:0;
+	font-weight: normal;
+	font-size: 1.6em
+}
+#speisekarte ul:nth-child(1){
+	margin-left: 5px;
+}
+#speisekarte ul li{
+	margin-bottom: 5px;
+	display:block;
+	width:100%;
+	background: #ffff00;
+	line-height: 1.625em;
+	font-size: 1em;
+	padding:10px;
+}
+#speisekarte ul li:before{
+	content:"(3,30eu) ";
+	font-weight: bold;
+}
+#speisekarte ul li.selected {
+	background: #ffd000;
+	box-shadow: 0px 0px 5px black;
+}
+
+/* Leiste unten */
+footer {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	position:absolute;
+	bottom:5px;
+	width:100%;
+	height:60px;
+}
+footer div {
+	margin-right:5px;
+	padding: 5px;
+}
+footer div:nth-child(1){
+	margin-left: 5px;
+}
+footer #button {
+	flex:1 auto;
+	background: tomato;
+	text-align: center;
+	padding-top: 20px;
+}
+footer #text{
+	padding-top: 8px;
+	flex:2 auto;
+	text-align: center;
+	background: white;
+}
