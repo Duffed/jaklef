@@ -34,7 +34,7 @@
 	</head>
 <body>
 	<div id="error">:(</div>
-	<div class="bg_transparent" id="content_general"><h1>Woops, Fehler.</h1>
+	<div class="bg_transparent content_general" ><h1>Woops, Fehler.</h1>
 	<br/>
 	<p>Die aufgerufene Seite existiert nicht.<br/>
 	Aber keine Panik, <a href="http://www.jaklef.de/" class="highlight">hier</a> geht es zur&uuml;ck!</p>

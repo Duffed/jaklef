@@ -10,7 +10,7 @@
 	<section id="wrapper">
 <?php include('include/navigation.html') ?>
 <!---->
-	<div id="content_general" class="bg_transparent justify">
+	<div class="content_general bg_transparent justify">
 		<h2 class="headline">Biografie</h2>
 		
 		<p class="marginbottom">2001 gr&uuml;ndete Jaklef zusammen mit Daniel.H das Label <em class="highlight">Barake Records</em> in Koblenz / Neuendorf. 

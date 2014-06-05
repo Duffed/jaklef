@@ -11,7 +11,7 @@
 	<section id="wrapper">
 <?php include('include/navigation.html') ?>
 <!---->
-<div class="bg_transparent" id="content_general">
+<div class="bg_transparent content_general">
 	<h2 class="headline">Kontakt</h2>
 	<?php
 		if (!isset($_POST["send_mail"]))    /* display the contact form */
@@ -42,11 +42,11 @@
 			$uberpruefung=$_REQUEST['feld_uberpruefung'];
 			if (($name=="")||($email=="")||($message==""))
 				{
-					echo "Alle Felder werden ben&ouml;tigt. <a href=\"\">Bitte erneut ausf&uuml;llen.</a>";
+					echo "<center><br><br>Alle Felder werden ben&ouml;tigt. <a href=\"\">Bitte erneut ausf&uuml;llen.</a><br><br><br></center>";
 				}
 			else{
 				if ($uberpruefung != 12 ) {
-					echo "Nein, 3 + 9 sind nicht ".$uberpruefung.". <a href=\"\">Am besten nochmal neu versuchen.</a>";
+					echo "<center><br><br>Nein, 3 + 9 sind nicht ".$uberpruefung.". <a href=\"\">Am besten nochmal neu versuchen.</a><br><br><br></center>";
 				} else {
 					if ($betreff==""){$betreff="Kein Betreff";}
 					$from="Von: $name<$email>\r\nReturn-path: $email";

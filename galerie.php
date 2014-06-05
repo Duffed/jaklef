@@ -81,9 +81,9 @@
 				}
 			
 		} else {
-			echo "<div class='bg_transparent' id='content_general'><a href='" . $_SERVER['PHP_SELF'] . "'>
+			echo "<div class='bg_transparent content_general'><a href='" . $_SERVER['PHP_SELF'] . "'>
 				<em class='highlight'>&lt; </em>Zur&uuml;ck</a></div>";
-			echo "<div class='bg_transparent' id='content_general'>";			
+			echo "<div class='bg_transparent content_general' >";			
 				$directory = "galerie/$_GET[album]";	//where the gallery images are located
 				$number = $_GET["album"];
 				

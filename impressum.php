@@ -9,7 +9,7 @@
 	<section id="wrapper">
 <?php include('include/navigation.html') ?>
 <!---->
-	<div class='bg_transparent justify' id='content_general'>
+	<div class='bg_transparent justify content_general'>
 		<h2 class="headline">Impressum</h2>
 		
 		<h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>

@@ -29,7 +29,7 @@
 	<section id="wrapper">
 <?php include('include/navigation.html') ?>
 <!---->
-	<div class='bg_transparent' id='content_general'>
+	<div class='bg_transparent content_general'>
 		<h2 class="headline">Barake TV</h2>
     	<div id="componentWrapper">
     		<div class="componentInnerWrapper">

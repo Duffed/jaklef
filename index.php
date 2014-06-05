@@ -27,6 +27,12 @@
 <?php include('include/navigation.html') ?>
 <!---->
 
+			<!-- Album cover -->
+			<div class="bg_transparent content_general">
+				<h2 class="headline ">Album vorbestellen!</h2>
+				<img class="albumcover" src="galerie/10/pure_gewalt_2.jpg">
+			</div>
+			
 			<!-- Top left content -->
 			<div class="bg_transparent" id="content_top_left">
 				<h2 class="headline headline_2">Youtube</h2>
@@ -58,7 +64,7 @@
 			</div>
 			
 			<!-- Tracks -->
-			<div class="bg_transparent" id="content_general">
+			<div class="bg_transparent content_general">
 				<h2 class="headline">Soundcloud</h2>
 				<ul id="content_tracks">
 					<?php					
